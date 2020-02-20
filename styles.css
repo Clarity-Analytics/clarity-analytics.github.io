@@ -1,0 +1,232 @@
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+}
+
+/* Style the header */
+@font-face {
+    font-family: Abel;
+    src: url(C:/Users/Shinhye/AppData/Local/Microsoft/Windows/Fonts/Abel-Regular.ttf);
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 0px 20px;
+    text-align: right;
+    font-family: 'Abel',Helvetica, Arial, serif;
+    font-size: 2vw;
+} 
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0,114,163);
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(245,245,245);
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-variant: small-caps;
+}
+
+.img1{
+    width: 1.5vw;
+    height: 1.5vw;
+    transform: rotate(45deg);
+}
+  
+/* Change color on hover */
+.topnav a:hover {
+    /* background-color: white; */
+    color:rgb(31,55,107);
+}
+
+/* Style the heading */
+h2 {
+    margin: 0;
+    padding: 3px 8px 0px 8px;
+    font-variant: small-caps;
+    color: rgb(135,135,135);
+    font-size: 2vw;
+}
+
+p {
+    margin: 0;
+    padding: 0px 8px;
+    color: rgba(135,135,135,0.8);
+    font-size: 1.6vw;
+}
+
+/* clearfit */
+.clearfix {
+    overflow: auto;
+    padding: 0px 8px;
+    color: rgba(135,135,135,0.8);
+    font-size: 1.6vw;
+}
+
+.img2 {
+    float: left;
+    padding: 0px 8px 0px 0px;
+    width: 25vw;
+    height: 17vw;
+}
+
+.list1 {
+    margin-left: 25%;
+}
+
+.list2 {
+    list-style: square;
+    padding: 0 5vw;
+    color: rgba(135,135,135,0.8);
+    font-size: 1.6vw;
+}
+
+.list3 {
+    list-style: none;
+    color: rgba(135,135,135);
+}
+
+h1 {
+    margin: 0;
+    padding: 3px 8px 0px 8px;
+    font-variant: small-caps;
+    color: rgba(135,135,135,0.8);
+    font-size: 2.5vw;
+}
+
+div.canvas {
+    text-align: center;
+    background-color: rgba(142,211,246,0.7);
+    padding: 5px;
+}
+
+.itl {
+    font-style: italic;
+}
+
+.img3 {
+    display: inline-block;
+    padding: 0px 8px 0px 0px;
+    width: 30vw;
+    height: 23vw;
+}
+
+/* logo - bottom right */
+img.sticky1 {
+    position: sticky;
+    bottom:3%;
+    -ms-left: 98%;
+    left: 98%;
+    width: 1.5vw;
+    height: 1.5vw;
+    transform: rotate(45deg);
+}
+
+/* footer */
+.footer {
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(0,114,163);
+    margin-top: 1vw;
+}
+
+.footer > p{
+    color: rgb(255, 255, 255);
+}
+
+.footer > p > a{
+    color: rgb(141, 211, 246);
+}
+
+@media only screen and (max-width:500px) {
+    .img2 {
+        float: none;
+        padding: 0px 60px;
+    }
+    .img2, .resp1, .list1, .resp2 {
+        width:100%;
+    }
+    .img3 {
+        padding: 0px 60px;
+        width:100%;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color: rgb(245,245,245);
+        text-align: center;
+        padding: 7px 8px;
+        text-decoration: none;
+        font-size: 2.5vw;
+        font-variant: small-caps;
+    }
+    .img1{
+        width: 2.5vw;
+        height: 2.5vw;
+        transform: rotate(45deg);
+    }
+    .list1 {
+        margin-left: 0;
+        text-indent: 3vw;
+    }
+    br {
+        display: none;
+    }
+    p {
+        line-height: 1.5;
+    }
+    ul {
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width:200px) {
+    .header {
+        padding: 0px 10px;
+        font-size: 2.5vw;
+    }
+    /* Style the topnav links */
+    .topnav a {
+            float: none;
+            width: 100%;
+            padding: 0.5vw;
+            text-decoration: none;
+            font-size: 2.5vw;
+    } 
+    .img2 {
+        float: none;
+        padding: 0px 20px;
+    }
+    .img2, .resp1, .list1, .resp2 {
+        width:100%;
+    }
+    .img3 {
+        padding: 0px 20px;
+        width:100%;
+    }
+    .img1 {
+        display: none;
+    }
+    br {
+        display: none;
+    }
+    p {
+        line-height: 2;
+    }
+    ul {
+        line-height: 2;
+    }
+}
+  
