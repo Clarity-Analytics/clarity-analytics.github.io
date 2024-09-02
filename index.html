@@ -12,9 +12,10 @@
 <body>
 
     <!-- Page 1 -->
-    <div class="gridPage1">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage1" id="page1">
 
-        <div class="gridPage1Heading1 headingText" style="height: 9vh; min-height: 9vh;">
+        <div class="gridPage1Heading1 headingText">
             About us
         </div>
 
@@ -31,6 +32,12 @@
                 style="width: 5.66vw;"
                 />
         </div>
+        <div class="gridPage1Rocket">
+            <img
+                src="images/Website Rocket.png"
+                style="width: 12vw;"
+                />
+        </div>
 
         <!-- Text -->
         <div class="gridPage1Text1 normalText">
@@ -43,7 +50,7 @@
             </p>
             <p>
                 At Clarity Analytics we believe that data quality is at the heart of effective business decisions.
-                It is for this reason that our Canvas journey with you starts with your data. We work on setting you up
+                Therefore our Canvas journey with you starts with your data. We work on setting you up
                 with Canvas to extract, transform and integrate your data sources.  Once your data is prepared,
                 Canvas allows for the creation of simple, useful reports and powerful visualisations.
             </p>
@@ -51,14 +58,14 @@
             <p>
                 We recognize that the implementation of any new technology-driven tool can be daunting for users. It is important
                 for us to support you through the initial implementation process until you are self-sufficient.  Once you are 
-                trained and comfortable with our Canvas platform, we trust that you would be empowered with the visibility and 
+                trained and comfortable with our Canvas platform, you would be empowered with visibility and 
                 understanding of your data to create reports and dashboards that you adapt and create as the needs of your business 
                 change.  
             </p>
 
             <p>
-                The Canvas implementation, training, standard support and maintenance are not billed separately.  We charge a 
-                simple, fixed licence fee.
+                The Canvas implementation cost, training, standard support and maintenance are not billed separately.  We charge a 
+                simple, fixed and inclusive licence fee.
             </p>
 
             <p>
@@ -76,13 +83,16 @@
             <p>
                 <br>
                 <i>
-                    Contact us at info@clarityanalytics.xyz for more detail or a demo.
+                    Contact us at info@clarityanalytics.xyz for more detail or a free demo.
                 </i>
             </p>
 
         </div>
-        <div class="gridPage1Text1 normalText">
-            
+
+        <div class="gridPage1NextButton">
+            <button class="next-button" onclick="document.getElementById('page2').scrollIntoView();">
+                Next
+            </button>
         </div>
 
     </div>
@@ -93,8 +103,11 @@
     </div>
 
 
+
+
     <!-- Page 2 -->
-    <div class="gridPage2">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage2" id="page2">
 
         <div class="gridPage2Heading1 headingText">
             The business challenge landscape
@@ -113,25 +126,31 @@
         <div class="gridPage2ImageTopLeft">
             <img
                 src="images/big-data.svg"
-                style="width: 3.55vw;"
+                style="width: 3vw;"
                 />
         </div>
         <div class="gridPage2ImageTopRight">
             <img
                 src="images/data-analytics.svg"
-                style="width: 3vw;"
+                style="width: 2.8vw;"
                 />
         </div>
         <div class="gridPage2ImageBottomLeft">
             <img
                 src="images/data-management.svg"
-                style="margin-top: -8px; width: 3vw;"
+                style="margin-top: -8px; width: 2.8vw;"
                 />
         </div>
         <div class="gridPage2ImageBottomRight">
             <img
                 src="images/file-data-exchange.svg"
-                style="margin-top: -8px; width: 4.56vw;"
+                style="margin-top: -8px; width: 4vw;"
+                />
+        </div>
+        <div class="gridPage2ImagePresentationMan1">
+            <img
+                src="images/Website Presentation Man1.png"
+                style="margin-top: -8px; width: 10vw;"
                 />
         </div>
 
@@ -165,9 +184,9 @@
         <!-- RH Text -->
         <div class="gridPage2TextRH1 normalText">
             <p>
-                • Everyone encounters challenges with inadequate reporting—whether it's slow, manual, costly, inflexible, incomplete, 
-                or simply not useful. Are you able to access flexible, powerful, and self-service reports and KPIs in the format you 
-                need, right at your fingertips?
+                • Everyone encounters challenges with inadequate reporting - whether it's slow, manual, costly, inflexible, 
+                incomplete, or simply not useful. Are you able to access flexible, powerful, and self-service reports and 
+                KPIs in the format you need, right at your fingertips?
             </p>
             <p>
                 • With vast amounts of data available, understanding business levers, spotting exceptions and trends can be difficult. 
@@ -180,8 +199,23 @@
 
         </div>
 
-        <div class="gridPage2HeadingBottom headingText">
+        <div class="gridPage2HeadingBottom1 bigText">
+            Need help ?
+        </div>
+        <div class="gridPage2HeadingBottom2 bigText blueText">
             Introducing Canvas Data Management and BI Platform
+        </div>
+
+        <!-- Buttons -->
+        <div class="gridPage2NextBack">
+            <button class="next-button" onclick="document.getElementById('page1').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage2NextButton">
+            <button class="next-button" onclick="document.getElementById('page3').scrollIntoView();">
+                Next
+            </button>
         </div>
 
     </div>
@@ -193,8 +227,11 @@
     </div>
 
 
+
+
     <!-- Page 3 -->
-    <div class="gridPage3">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage3" id="page3">
 
         <div class="gridPage3Heading1 headingText">
             Our Canvas Solution
@@ -295,6 +332,13 @@
                 style="width: 2.44vw;"
                 />
         </div>
+        <div class="gridPage3ImageMagnifyingGlass">
+            <img
+                src="images/Website Magnifying Glass.png"
+                style="margin-top: -8px; width: 10vw;"
+                />
+        </div>
+
 
         <!-- LH Sub Heading -->
         <div class="gridPage3SubHeadingLeft subHeadingText">
@@ -379,6 +423,18 @@
             <b>IT management tools</b>
         </div>
 
+        <!-- Buttons -->
+        <div class="gridPage3NextBack">
+            <button class="next-button" onclick="document.getElementById('page2').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage3NextButton">
+            <button class="next-button" onclick="document.getElementById('page4').scrollIntoView();">
+                Next
+            </button>
+        </div>
+
     </div>
 
 
@@ -388,8 +444,11 @@
     </div>
 
 
+
+
     <!-- Page 4 -->
-    <div class="gridPage4">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage4" id="page4">
 
         <div class="gridPage4Heading1 headingText">
             Canvas Data management
@@ -478,6 +537,13 @@
                 />
         </div>
 
+        <div class="gridPage4ImageMagnifyingGlass">
+            <img
+                src="images/Website Magnifying Glass.png"
+                style="margin-top: -8px; width: 10vw;"
+                />
+        </div>
+
 
         <!-- Sub Heading -->
         <div class="gridPage4SubHeading1 bigText">
@@ -485,57 +551,69 @@
         </div>
 
         <!-- LH Text -->
-        <div class="gridPage4TextLH1 smallText">
+        <div class="gridPage4TextLH1 normalText">
             <b>• Dive deep into your raw data and reveal your business drivers</b>
         </div>
-        <div class="gridPage4TextLH2 smallText">
+        <div class="gridPage4TextLH2 normalText">
             Probe and interrogate the depths of the data directly from the source. Package this 
             data to extract meaning and gain understanding of your true business drivers.
         </div>
 
-        <div class="gridPage4TextLH3 smallText">
+        <div class="gridPage4TextLH3 normalText">
             <b>• Enhance data integrity</b>
         </div>
-        <div class="gridPage4TextLH4 smallText">
+        <div class="gridPage4TextLH4 normalText">
             Get visibility of the quality of your data at the source. Tackle inconsistent and inaccurate data and derive meaningful insights, even from imperfect data. Maintain one version of the truth.
         </div>
 
-        <div class="gridPage4TextLH5 smallText">
+        <div class="gridPage4TextLH5 normalText">
             <b>• Remove the shackles of slow, manual and siloed reporting</b>
         </div>
-        <div class="gridPage4TextLH6 smallText">
+        <div class="gridPage4TextLH6 normalText">
             Set up your reporting in the format that you choose, available as soon as the source is updated.  Adapt, condense and expand the views depending on your needs and audience. Even integrate data from Excel if required.
         </div>
 
-        <div class="gridPage4TextLH7 smallText">
+        <div class="gridPage4TextLH7 normalText">
             <b>• Integrate multiple data sources for a holistic business view</b>
         </div>
-        <div class="gridPage4TextLH8 smallText">
+        <div class="gridPage4TextLH8 normalText">
             Include multiple data sources into a single report/ dashboard or widget. Understand whether the key drivers of your business are generating the outcomes that you expect. Track these relationships over time to easily identify and quickly respond to changes.
         </div>
 
 
         <!-- RH Text -->
-        <div class="gridPage4TextRH1 smallText blueText">
+        <div class="gridPage4TextRH1 normalText blueText">
             <b>• Canvas connects to:</b>
         </div>
-        <div class="gridPage4TextRH2 smallText blueText">
+        <div class="gridPage4TextRH2 normalText blueText">
             Structured and unstructured databases, external data sources, Xero, APIs, CSV, JSON,
              Excel, Google Sheets and more without a size limitation.
         </div>
 
-        <div class="gridPage4TextRH3 smallText blueText">
+        <div class="gridPage4TextRH3 normalText blueText">
             <b>• Canvas centralised approach to:</b>
         </div>
-        <div class="gridPage4TextRH4 smallText blueText">
+        <div class="gridPage4TextRH4 normalText blueText">
             Data storage.  Data usage information.  Data virtualization.
         </div>
 
-        <div class="gridPage4TextRH5 smallText blueText">
+        <div class="gridPage4TextRH5 normalText blueText">
             <b>• Canvas tools for:</b>
         </div>
-        <div class="gridPage4TextRH6 smallText blueText">
+        <div class="gridPage4TextRH6 normalText blueText">
             Data discovery.  Data quality.  Data ownership.  Data classification. 	Data summaries.  Data pivots.
+        </div>
+
+        <!-- Buttons -->
+        <div class="gridPage4NextBack">
+            <button class="next-button" onclick="document.getElementById('page3').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage4NextButton">
+            <button class="next-button" onclick="document.getElementById('page5').scrollIntoView();">
+                Next
+            </button>
         </div>
 
     </div>
@@ -547,8 +625,11 @@
     </div>
 
 
+
+
     <!-- Page 5 -->
-    <div class="gridPage5">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage5" id="page5">
 
         <div class="gridPage5Heading1 headingText">
             Canvas Reporting and Analysis
@@ -614,6 +695,12 @@
                 />
         </div>
 
+        <div class="gridPage5ImageHourGlass">
+            <img
+                src="images/Website Hourglass.png"
+                style="margin-top: -8px; width: 10vw;"
+                />
+        </div>
 
         <!-- Sub Heading -->
         <div class="gridPage5SubHeading1 bigText">
@@ -621,54 +708,66 @@
         </div>
 
         <!-- LH Text -->
-        <div class="gridPage5TextLH1 smallText">
+        <div class="gridPage5TextLH1 normalText">
             <b>• Generate insightful reports with ease</b>
         </div>
-        <div class="gridPage5TextLH2 smallText">
+        <div class="gridPage5TextLH2 normalText">
             Transform your raw data into clear, comprehensive reports for informed decision-making. 
             Create intuitive reports with just a few clicks, ensuring you always have the insights 
             you need at your fingertips. Share KPIs, trends and patterns with stakeholders.
         </div>
 
-        <div class="gridPage5TextLH3 smallText">
+        <div class="gridPage5TextLH3 normalText">
             <b>• Transform data into stunning visualisations</b>
         </div>
-        <div class="gridPage5TextLH4 smallText">
+        <div class="gridPage5TextLH4 normalText">
             Visualise complex data into compelling dashboards that captivate your audience and drive 
             insightful decisions. Tell a powerful story at a glance to inform data-driven decisions.
         </div>
 
-        <div class="gridPage5TextLH5 smallText">
+        <div class="gridPage5TextLH5 normalText">
             <b>• Include compelling narratives with your data</b>
         </div>
-        <div class="gridPage5TextLH6 smallText">
+        <div class="gridPage5TextLH6 normalText">
             Support your dashboards with impactful narratives to illuminate key insights.
         </div>
 
 
         <!-- RH Text -->
-        <div class="gridPage5TextRH1 smallText blueText">
+        <div class="gridPage5TextRH1 normalText blueText">
             <b>A. Canvas reporting</b>
         </div>
-        <div class="gridPage5TextRH2 smallText blueText">
+        <div class="gridPage5TextRH2 normalText blueText">
             Flexible organising, filtering, classifying and packaging of data. Different reporting 
             hierarchies, frequencies and level of granularity for different audiences.
         </div>
 
-        <div class="gridPage5TextRH3 smallText blueText">
+        <div class="gridPage5TextRH3 normalText blueText">
             <b>B. Canvas analysis and visualisation tools</b>
         </div>
-        <div class="gridPage5TextRH4 smallText blueText">
+        <div class="gridPage5TextRH4 normalText blueText">
             More than 100 widget types and graphs.  Powerful and easy to use dashboards. Interactive 
             messages and comments for collaboration and business user engagement. Customisable styling 
             and format.
         </div>
 
-        <div class="gridPage5TextRH5 smallText blueText">
+        <div class="gridPage5TextRH5 normalText blueText">
             <b>C. Canvas data story telling:</b>
         </div>
-        <div class="gridPage5TextRH6 smallText blueText">
+        <div class="gridPage5TextRH6 normalText blueText">
             Range of widgets and tools for tag lines, key insights and decisions.
+        </div>
+
+        <!-- Buttons -->
+        <div class="gridPage5NextBack">
+            <button class="next-button" onclick="document.getElementById('page4').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage5NextButton">
+            <button class="next-button" onclick="document.getElementById('page6').scrollIntoView();">
+                Next
+            </button>
         </div>
 
     </div>
@@ -679,8 +778,12 @@
         &nbsp;
     </div>
 
+
+
+
     <!-- Page 6 -->
-    <div class="gridPage6">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage6" id="page6">
 
         <div class="gridPage6Heading1 headingText">
             A. Canvas Reporting
@@ -724,6 +827,13 @@
                 />
         </div>
 
+        <div class="gridPage6Rocket">
+            <img
+                src="images/Website Rocket.png"
+                style="width: 12vw;"
+                />
+        </div>
+
         <!-- Boxes -->
         <div class="gridPage6Box gridBox">
             &nbsp;
@@ -731,7 +841,7 @@
 
 
         <!-- Sub Heading -->
-        <div class="gridPage6SubHeading1 subHeadingText">
+        <div class="gridPage6SubHeading1 bigText">
             Flexible reports and data interrogation
         </div>
 
@@ -749,6 +859,18 @@
             Set up email alerts for threshold breaches
         </div>
 
+        <!-- Buttons -->
+        <div class="gridPage6NextBack">
+            <button class="next-button" onclick="document.getElementById('page5').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage6NextButton">
+            <button class="next-button" onclick="document.getElementById('page7').scrollIntoView();">
+                Next
+            </button>
+        </div>
+
     </div>
 
 
@@ -757,8 +879,12 @@
         &nbsp;
     </div>
 
+
+
+
     <!-- Page 7 -->
-    <div class="gridPage7">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage7" id="page7">
 
         <div class="gridPage7Heading1 headingText">
             B. Canvas analysis and visualisation tools
@@ -801,6 +927,12 @@
                 style="width: 14.66vw;"
                 />
         </div>
+        <div class="gridPage7ImagePresentationMan1">
+            <img
+                src="images/Website Presentation Man1.png"
+                style="margin-top: -8px; width: 10vw;"
+                />
+        </div>
 
         <!-- Boxes -->
         <div class="gridPage7Box gridBox">
@@ -808,7 +940,7 @@
         </div>
 
         <!-- Sub Heading -->
-        <div class="gridPage7SubHeading1 subHeadingText">
+        <div class="gridPage7SubHeading1 bigText">
             Transform your data into useful visualisations
         </div>
 
@@ -825,9 +957,20 @@
         <div class="gridPage7Footer3 bigText" 
             style="text-align: center;"
             >
-            Shared dashboards with approved users
+            Share dashboards with approved users
         </div>
 
+        <!-- Buttons -->
+        <div class="gridPage7NextBack">
+            <button class="next-button" onclick="document.getElementById('page6').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage7NextButton">
+            <button class="next-button" onclick="document.getElementById('page8').scrollIntoView();">
+                Next
+            </button>
+        </div>
 
     </div>
 
@@ -839,8 +982,12 @@
         &nbsp;
     </div>
 
+
+
+
     <!-- Page 8 -->
-    <div class="gridPage8">
+    <!-- *************************************************************************************************************************** -->
+    <div class="gridPage8" id="page8">
 
         <div class="gridPage8Heading1 headingText">
             C. Canvas data story telling
@@ -871,6 +1018,12 @@
                 style="width: 3vw;"
                 />
         </div>
+        <div class="gridPage8Rocket">
+            <img
+                src="images/Website Rocket.png"
+                style="width: 12vw;"
+                />
+        </div>
 
 
         <!-- Boxes -->
@@ -879,7 +1032,7 @@
         </div>
 
         <!-- Sub Heading -->
-        <div class="gridPage8SubHeading1 subHeadingText">
+        <div class="gridPage8SubHeading1 bigText">
             Include compelling narratives with your data
         </div>
 
@@ -899,6 +1052,18 @@
             Alert audience to performance anomalies
         </div>
 
+        <!-- Buttons -->
+        <div class="gridPage8NextBack">
+            <button class="next-button" onclick="document.getElementById('page7').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage8NextButton">
+            <button class="next-button" onclick="document.getElementById('page9').scrollIntoView();">
+                Next
+            </button>
+        </div>
+
     </div>
 
     <!-- ****************************** Page Divider ****************************** -->
@@ -911,7 +1076,9 @@
 
 
     <!-- Page 9 -->
-    <div class="gridPage9">
+    <!-- *************************************************************************************************************************** -->
+
+    <div class="gridPage9" id="page9">
 
         <div class="gridPage9Heading1 headingText">
             Canvas Additional features
@@ -939,33 +1106,31 @@
 
 
         <!-- LH Text -->
-        <div class="gridPage9TextLH1 smallText">
+        <div class="gridPage9TextLH1 normalText">
             <b>• Collaborate with Canvas</b>
         </div>
-        <div class="gridPage9TextLH2 smallText">
+        <div class="gridPage9TextLH2 normalText">
             Foster seamless collaboration with tools designed to unite your team around 
             data-driven goals. Our collaboration features enable effortless sharing and 
             interaction, allowing teams to work together efficiently and make informed 
             decisions. Integrate diverse perspectives, synchronize efforts, and ensure 
-            everyone stays aligned with a single source of truth. Empower your team to 
-            collaborate effectively and drive collective success with data at the heart 
-            of your strategy.
+            everyone stays aligned with a single source of truth. 
         </div>
 
-        <div class="gridPage9TextLH3 smallText">
+        <div class="gridPage9TextLH3 normalText">
             <b>• Work smarter with Canvas productivity tools</b>
         </div>
-        <div class="gridPage9TextLH4 smallText">
+        <div class="gridPage9TextLH4 normalText">
             Discover our range of add-ons tools that enhance 
             the platform capabilities and your productivity. Our tailored add-ons help with 
             business plans, task management, a CRM-lite, Jira 
             project management system queries and more to help maximize the value of your data.
         </div>
 
-        <div class="gridPage9TextLH5 smallText">
+        <div class="gridPage9TextLH5 normalText">
             <b>• Minimal effort, greater efficiency in Canvas BI management</b>
         </div>
-        <div class="gridPage9TextLH6 smallText">
+        <div class="gridPage9TextLH6 normalText">
             Our comprehensive IT management tools empower you to maintain a robust and reliable 
             BI environment with minimal effort. These tools are designed to reduce the operational 
             burden of managing the Canvas platform. For example, our built-in data virtualisation 
@@ -974,27 +1139,46 @@
 
 
         <!-- RH Text -->
-        <div class="gridPage9TextRH1 smallText blueText">
+        <div class="gridPage9TextRH1 normalText blueText">
             <b>• Canvas collaboration tools</b>
         </div>
-        <div class="gridPage9TextRH2 smallText blueText">
+        <div class="gridPage9TextRH2 normalText blueText">
             Canvas functionality: direct messages, comments, annotations, key messages
         </div>
 
-        <div class="gridPage9TextRH3 smallText blueText">
+        <div class="gridPage9TextRH3 normalText blueText">
             <b>• Canvas productivity and business management tools</b>
         </div>
-        <div class="gridPage9TextRH4 smallText blueText">
+        <div class="gridPage9TextRH4 normalText blueText">
             Canvas modules for: CRM-lite, Business strategy and tactical plans (like PESTLE, 
             SWOT, Business Model Canvas, etc), Jira integration, Task manager, Voice to text
         </div>
 
-        <div class="gridPage9TextRH5 smallText blueText">
+        <div class="gridPage9TextRH5 normalText blueText">
             <b>• Canvas IT management tools</b>
         </div>
-        <div class="gridPage9TextRH6 smallText blueText">
+        <div class="gridPage9TextRH6 normalText blueText">
             Canvas contains: Powerful CLI, tools to manage Users, Groups, Access, Entities, 
             Licenses, Server and Audit trails
+        </div>
+
+        <div class="gridPage9ImagePresentationMan1">
+            <img
+                src="images/Website Presentation Man1.png"
+                style="margin-top: -8px; width: 10vw;"
+                />
+        </div>
+
+        <!-- Buttons -->
+        <div class="gridPage9NextBack">
+            <button class="next-button" onclick="document.getElementById('page8').scrollIntoView();">
+                Back
+            </button>
+        </div>
+        <div class="gridPage9NextButton">
+            <button class="next-button" onclick="document.getElementById('page1').scrollIntoView();">
+                Home
+            </button>
         </div>
 
     </div>
