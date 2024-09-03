@@ -555,12 +555,47 @@
         grid-row-end: 34;
         margin-left: 12px;
     }
+    .gridPage3TextLH2 {
+        grid-column-start: 3;
+        grid-column-end: 12;
+        grid-row-start: 22;
+        grid-row-end: 34;
+        margin-left: 12px;
+    }
+    .gridPage3TextLH3 {
+        grid-column-start: 3;
+        grid-column-end: 12;
+        grid-row-start: 32;
+        grid-row-end: 37;
+        margin-left: 12px;
+    }
+    .gridPage3TextLH4 {
+        grid-column-start: 3;
+        grid-column-end: 12;
+        grid-row-start: 41;
+        grid-row-end: 50;
+        margin-left: 12px;
+    }
+
    .gridPage3TextMiddle1 {
         grid-column-start: 15;
         grid-column-end: 25;
         grid-row-start: 13;
         grid-row-end: 34;
     }
+    .gridPage3TextMiddle2 {
+        grid-column-start: 15;
+        grid-column-end: 25;
+        grid-row-start: 27;
+        grid-row-end: 34;
+    }
+    .gridPage3TextMiddle3 {
+        grid-column-start: 15;
+        grid-column-end: 25;
+        grid-row-start: 38;
+        grid-row-end: 50;
+    }
+
     .gridPage3TextRH1 {
         grid-column-start: 29;
         grid-column-end: 36;
