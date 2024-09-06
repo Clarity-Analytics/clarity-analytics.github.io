@@ -1,4 +1,4 @@
-/* Overall classes 
+/* Overall classes
 ***************************************************************************************************************************
 */
 
@@ -16,7 +16,7 @@
     margin: 0px;
     opacity: 1;
     overflow-wrap: break-word;
-    padding: auto; 
+    padding: auto;
     text-align: center;
     text-shadow: none;
     white-space: normal;
@@ -36,7 +36,7 @@
     margin: 2px 0px 0px 0px;
     opacity: 1;
     overflow-wrap: break-word;
-    padding: auto; 
+    padding: auto;
     text-align: center;
     text-shadow: none;
     white-space: normal;
@@ -139,7 +139,7 @@
 
 
 
-    /* Page 1 
+    /* Page 1
        ***************************************************************************************************************************
     */
 
@@ -211,7 +211,7 @@
 
 
 
-    /* Page 2 
+    /* Page 2
        ***************************************************************************************************************************
     */
 
@@ -318,7 +318,13 @@
         grid-row-end: 44;
         margin-left: 24px;
         margin-top: 6px;
-    }    
+    }
+    @media (max-width: 1100px) {
+        .gridPage2ImageBottomRight {
+            grid-row-start: 39;
+        }
+    }
+    
     .gridPage2ImagePresentationMan1 {
         grid-column-start: 37;
         grid-column-end: 40;
@@ -363,7 +369,7 @@
 
 
 
-    /* Page 3  
+    /* Page 3
        ***************************************************************************************************************************
     */
 
@@ -634,7 +640,7 @@
     }
 
 
-    /* Page 4  
+    /* Page 4
        ***************************************************************************************************************************
     */
     .gridPage4 {
@@ -861,7 +867,7 @@
     }
 
 
-    /* Page 5  
+    /* Page 5
        ***************************************************************************************************************************
     */
     .gridPage5 {
@@ -1055,7 +1061,7 @@
     }
 
 
-    /* Page 6  
+    /* Page 6
        ***************************************************************************************************************************
     */
 
@@ -1141,8 +1147,8 @@
         grid-row-end: 45;
         margin-left: 12px;
     }
-      
-    
+
+
     /* Sub Headings */
     .gridPage6SubHeading1 {
         grid-column-start: 11;
@@ -1151,7 +1157,7 @@
         grid-row-end: 12;
         text-align: center;
     }
-    
+
     .gridPage6Footer1 {
         grid-column-start: 3;
         grid-column-end: 25;
@@ -1186,11 +1192,11 @@
     }
 
     /* Text */
-   
 
 
 
-    /* Page 7  
+
+    /* Page 7
        ***************************************************************************************************************************
     */
 
@@ -1276,8 +1282,8 @@
         grid-row-end: 46;
         margin-left: 12px;
     }
-      
-    
+
+
     /* Sub Headings */
     .gridPage7SubHeading1 {
         grid-column-start: 9;
@@ -1287,10 +1293,10 @@
         margin-top: -12px;
         text-align: center;
     }
-   
+
 
     /* Text */
-   
+
     .gridPage7Footer1 {
         grid-column-start: 3;
         grid-column-end: 25;
@@ -1325,7 +1331,7 @@
     }
 
 
-    /* Page 8  
+    /* Page 8
        ***************************************************************************************************************************
     */
 
@@ -1387,7 +1393,7 @@
         margin-left: 12px;
         z-index: 0;
     }
-  
+
     /* Boxes */
     .gridPage8Box {
         grid-column-start: 2;
@@ -1396,8 +1402,8 @@
         grid-row-end: 46;
         margin-left: 12px;
     }
-      
-    
+
+
     /* Sub Headings */
     .gridPage8SubHeading1 {
         grid-column-start: 10;
@@ -1408,7 +1414,7 @@
     }
 
     /* Text */
-   
+
 
     /* Footers */
     .gridPage8Footer1 {
@@ -1447,7 +1453,7 @@
 
 
 
-    /* Page 9  
+    /* Page 9
        ***************************************************************************************************************************
     */
     .gridPage9 {
