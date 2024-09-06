@@ -480,7 +480,7 @@
     }
     @media (max-width: 1400px) {
         .gridPage3ImageBtnLeft1 {
-            margin-left: -12;
+            margin-left: -16;
         }
     }
 
@@ -495,7 +495,7 @@
     }
     @media (max-width: 1400px) {
         .gridPage3ImageBtnLeft2 {
-            margin-left: -12;
+            margin-left: -16;
         }
     }
 
@@ -528,7 +528,7 @@
     }
     @media (max-width: 1400px) {
         .gridPage3ImageBtnRight1 {
-            margin-left: -12;
+            margin-left: -16;
         }
     }
     .gridPage3ImageRight1 {
