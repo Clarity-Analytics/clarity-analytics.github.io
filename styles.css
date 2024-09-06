@@ -274,7 +274,7 @@
         grid-column-start: 1;
         grid-column-end: 18;
         grid-row-start: 11;
-        grid-row-end: 44;
+        grid-row-end: 45;
         margin-left: 12px;
         z-index: 0;
     }
@@ -282,7 +282,7 @@
         grid-column-start: 20;
         grid-column-end: 37;
         grid-row-start: 11;
-        grid-row-end: 44;
+        grid-row-end: 45;
         margin-left: 12px;
         z-index: 0;
     }
@@ -308,7 +308,7 @@
     .gridPage2ImageBottomLeft {
         grid-column-start: 16;
         grid-column-end: 21;
-        grid-row-start: 40;
+        grid-row-start: 41;
         grid-row-end: 44;
     }
     @media (max-width: 1400px) {
@@ -320,7 +320,7 @@
     .gridPage2ImageBottomRight {
         grid-column-start: 34;
         grid-column-end: 40;
-        grid-row-start: 40;
+        grid-row-start: 41;
         grid-row-end: 44;
         margin-left: 24px;
         margin-top: 6px;
@@ -346,7 +346,7 @@
         grid-row-start: 15;
         grid-row-end: 37;
         margin-top: 16px;
-        margin-left: 12px;
+        margin-left: -2px;
     }
 
     .gridPage2TextRH1 {
