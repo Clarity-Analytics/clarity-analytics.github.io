@@ -523,12 +523,8 @@
         grid-row-end: 32;
         margin-left: 36px;
     }
-    @media (max-width: 1400px) {
-        .gridPage3ImageBtnRight1 {
-            grid-column-start: 26;
-        }
-    }
-        .gridPage3ImageRight1 {
+   
+    .gridPage3ImageRight1 {
         grid-column-start: 27;
         grid-column-end: 34;
         grid-row-start: 14;
