@@ -479,7 +479,7 @@
     }
     @media (max-width: 1400px) {
         .gridPage3ImageBtnLeft1 {
-            margin-left: -6px;
+            grid-column-start: 13;
         }
     }
 
@@ -493,7 +493,7 @@
     }
     @media (max-width: 1400px) {
         .gridPage3ImageBtnLeft2 {
-            margin-left: -6px;
+            grid-column-start: 13;
         }
     }
 
@@ -525,7 +525,7 @@
     }
     @media (max-width: 1400px) {
         .gridPage3ImageBtnRight1 {
-            margin-left: -6px;
+            grid-column-start: 26;
         }
     }
         .gridPage3ImageRight1 {
