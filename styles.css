@@ -231,18 +231,16 @@
     .gridPage2SubHeading1 {
         grid-column-start: 6;
         grid-column-end: 14;
-        grid-row-start: 9;
+        grid-row-start: 10;
         grid-row-end: 13;
         margin-left: -12px;
-        margin-top: 16px;
         z-index: 1;
     }
     .gridPage2SubHeading2 {
         grid-column-start: 24;
         grid-column-end: 33;
-        grid-row-start: 9;
+        grid-row-start: 10;
         grid-row-end: 13;
-        margin-top: 16px;
         margin-left: 12px;
         z-index: 1;
     }
