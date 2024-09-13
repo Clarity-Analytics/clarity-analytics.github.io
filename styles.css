@@ -295,7 +295,7 @@
     /* Text */
     .gridPage2aTextLH1Title {
         grid-column-start: 4;
-        grid-column-end: 17; 
+        grid-column-end: 18; 
         grid-row-start: 17;
         grid-row-end: 25;
     }
@@ -304,14 +304,14 @@
         border-radius: 16px;
         box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
         grid-column-start: 4;
-        grid-column-end: 17; 
+        grid-column-end: 18; 
         grid-row-start: 20;
         grid-row-end: 28;
         padding: 12px;
     }
     .gridPage2aTextLH2Title {
         grid-column-start: 4;
-        grid-column-end: 17;
+        grid-column-end: 18;
         grid-row-start: 35;
         grid-row-end: 40;
     }
@@ -320,15 +320,15 @@
         border-radius: 16px;
         box-shadow: 4px 4px 8px rgb(233, 232, 232);
         grid-column-start: 4;
-        grid-column-end: 17;
+        grid-column-end: 18;
         grid-row-start: 38;
-        grid-row-end: 46;
+        grid-row-end: 47;
         padding: 12px;
     }
 
     .gridPage2aTextRH1Title {
         grid-column-start: 24;
-        grid-column-end: 30; 
+        grid-column-end: 37; 
         grid-row-start: 17;
         grid-row-end: 25;
     }
@@ -337,7 +337,7 @@
         border-radius: 16px;
         box-shadow: 4px 4px 8px rgb(233, 232, 232);
         grid-column-start: 24;
-        grid-column-end: 36;
+        grid-column-end: 37;
         grid-row-start: 20;
         grid-row-end: 28;
         padding: 12px;
@@ -345,7 +345,7 @@
 
     .gridPage2aTextRH2Title {
         grid-column-start: 24;
-        grid-column-end: 36;
+        grid-column-end: 37;
         grid-row-start: 35;
         grid-row-end: 40;
     }
@@ -354,9 +354,9 @@
         border-radius: 16px;
         box-shadow: 4px 4px 8px rgb(233, 232, 232);
         grid-column-start: 24;
-        grid-column-end: 36;
+        grid-column-end: 37;
         grid-row-start: 38;
-        grid-row-end: 46;
+        grid-row-end: 47;
         padding: 12px;
     }
 
@@ -480,7 +480,7 @@
     /* Text */
     .gridPage2bTextLH1Title {
         grid-column-start: 4;
-        grid-column-end: 17; 
+        grid-column-end: 18; 
         grid-row-start: 17;
         grid-row-end: 25;
     }
@@ -489,14 +489,14 @@
         border-radius: 16px;
         box-shadow: 2px 2px 2px 2px rgb(233, 232, 232);
         grid-column-start: 4;
-        grid-column-end: 17; 
+        grid-column-end: 18; 
         grid-row-start: 20;
         grid-row-end: 31;
         padding: 12px;
     }
     .gridPage2bTextLH2Title {
         grid-column-start: 4;
-        grid-column-end: 17;
+        grid-column-end: 18;
         grid-row-start: 35;
         grid-row-end: 40;
     }
@@ -505,7 +505,7 @@
         border-radius: 16px;
         box-shadow: 4px 4px 8px rgb(233, 232, 232);
         grid-column-start: 4;
-        grid-column-end: 17;
+        grid-column-end: 18;
         grid-row-start: 38;
         grid-row-end: 48;
         padding: 12px;
@@ -513,7 +513,7 @@
 
     .gridPage2bTextRH1Title {
         grid-column-start: 23;
-        grid-column-end: 34; 
+        grid-column-end: 37; 
         grid-row-start: 17;
         grid-row-end: 25;
     }
@@ -522,7 +522,7 @@
         border-radius: 16px;
         box-shadow: 4px 4px 8px rgb(233, 232, 232);
         grid-column-start: 23;
-        grid-column-end: 36;
+        grid-column-end: 37;
         grid-row-start: 20;
         grid-row-end: 31;
         padding: 12px;
