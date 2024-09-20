@@ -99,6 +99,12 @@
     text-shadow: none;
     white-space: normal;
 }
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .normalText {
+        font-size: 2vw;
+    }
+}
+
 .smallText {
     background-color: transparent;
     color: hsl(198, 100%, 28%);
@@ -328,6 +334,15 @@
         grid-row-end: 28;
         padding: 12px;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage2aTextLH1 {
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+        }
+    }
+
+
     .gridPage2aTextLH2Title {
         grid-column-start: 4;
         grid-column-end: 18;
@@ -343,6 +358,13 @@
         grid-row-start: 38;
         grid-row-end: 47;
         padding: 12px;
+    }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage2aTextLH2 {
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+        }
     }
 
     .gridPage2aTextRH1Title {
@@ -361,6 +383,13 @@
         grid-row-end: 28;
         padding: 12px;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage2aTextRH1 {
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+        }
+    }
 
     .gridPage2aTextRH2Title {
         grid-column-start: 24;
@@ -378,6 +407,14 @@
         grid-row-end: 47;
         padding: 12px;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage2aTextRH2 {
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+        }
+    }
+
 
     /* Buttons */
     .gridPage2aNextBack {
@@ -513,6 +550,14 @@
         grid-row-end: 32;
         padding: 12px;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage2bTextLH1 {
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+        }
+    }
+
     .gridPage2bTextLH2Title {
         grid-column-start: 4;
         grid-column-end: 18;
@@ -528,6 +573,13 @@
         grid-row-start: 38;
         grid-row-end: 49;
         padding: 12px;
+    }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage2bTextLH2 {
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+        }
     }
 
     .gridPage2bTextRH1Title {
@@ -545,6 +597,13 @@
         grid-row-start: 20;
         grid-row-end: 32;
         padding: 12px;
+    }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage2bTextRH1 {
+            border: none;
+            border-radius: none;
+            box-shadow: none;
+        }
     }
 
 
@@ -617,21 +676,21 @@
         grid-column-start: 2;
         grid-column-end: 13;
         grid-row-start: 10;
-        grid-row-end: 49;
+        grid-row-end: 50;
         margin-left: 12px;
     }
     .gridPage3BoxMiddle {
         grid-column-start: 15;
         grid-column-end: 26;
         grid-row-start: 10;
-        grid-row-end: 49;
+        grid-row-end: 50;
         margin-left: 12px;
     }
     .gridPage3BoxRH {
         grid-column-start: 28;
         grid-column-end: 39;
         grid-row-start: 10;
-        grid-row-end: 49;
+        grid-row-end: 50;
         margin-left: 12px;
         z-index: 1;
     }
@@ -641,30 +700,77 @@
     .gridPage3ImageLeft1 {
         grid-column-start: 3;
         grid-column-end: 7;
-        grid-row-start: 14;
+        grid-row-start: 15;
         grid-row-end: 20;
         margin-left: -1rem;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage3ImageLeft1 {
+            grid-column-start: 4;
+            grid-column-end: 7;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .gridPage3ImageLeft1 {
+            margin-left: 0.8vw;
+        }
+    }
+
     .gridPage3ImageLeft2 {
         grid-column-start: 3;
         grid-column-end: 7;
-        grid-row-start: 23;
+        grid-row-start: 24;
         grid-row-end: 28;
         margin-left: -1rem;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage3ImageLeft2 {
+            grid-column-start: 4;
+            grid-column-end: 7;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .gridPage3ImageLeft2 {
+            margin-left: 0.8vw;
+        }
+    }
+
     .gridPage3ImageLeft3 {
         grid-column-start: 3;
         grid-column-end: 7;
-        grid-row-start: 32;
+        grid-row-start: 33;
         grid-row-end: 36;
         margin-left: -1rem;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage3ImageLeft3 {
+            grid-column-start: 4;
+            grid-column-end: 7;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .gridPage3ImageLeft3 {
+            margin-left: 0.8vw;
+        }
+    }
+
     .gridPage3ImageLeft4 {
         grid-column-start: 3;
         grid-column-end: 7;
-        grid-row-start: 41;
+        grid-row-start: 42;
         grid-row-end: 46;
         margin-left: -1rem;
+    }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage3ImageLeft4 {
+            grid-column-start: 4;
+            grid-column-end: 7;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .gridPage3ImageLeft4 {
+            margin-left: 0.8vw;
+        }
     }
 
     .gridPage3ImageMiddel1 {
@@ -693,6 +799,17 @@
         grid-row-end: 24;
         margin-left: 36px;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage3ImageRight1 {
+            grid-column-start: 27;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .gridPage3ImageRight1 {
+            margin-left: 2vw;
+        }
+    }
+
     .gridPage3ImageRight2 {
         grid-column-start: 28;
         grid-column-end: 35;
@@ -700,6 +817,17 @@
         grid-row-end: 34;
         margin-left: 36px;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage3ImageRight2 {
+            grid-column-start: 27;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .gridPage3ImageRight2 {
+            margin-left: 2vw;
+        }
+    }
+
     .gridPage3ImageRight3 {
         grid-column-start: 28;
         grid-column-end: 35;
@@ -707,6 +835,17 @@
         grid-row-end: 45;
         margin-left: 36px;
     }
+    @media only screen and (max-height: 450px) and (orientation: landscape) {
+        .gridPage3ImageRight3 {
+            grid-column-start: 27;
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+        .gridPage3ImageRight3 {
+            margin-left: 2vw;
+        }
+    }
+
     .gridPage3ImageMagnifyingGlass {
         grid-column-start: 37;
         grid-column-end: 40;
@@ -2010,13 +2149,13 @@
     .gridSmallPage2aTextRH1Title {
         grid-column-start: 4;
         grid-column-end: 38;
-        grid-row-start: 33;
+        grid-row-start: 32;
         grid-row-end: 34;
     }
     .gridSmallPage2aTextRH1 {
         grid-column-start: 4;
         grid-column-end: 38;
-        grid-row-start: 34;
+        grid-row-start: 33;
         grid-row-end: 38;
         padding: 12px;
     }
@@ -2024,13 +2163,13 @@
     .gridSmallPage2aTextRH2Title {
         grid-column-start: 4;
         grid-column-end: 38;
-        grid-row-start: 41;
+        grid-row-start: 40;
         grid-row-end: 42;
     }
     .gridSmallPage2aTextRH2 {
         grid-column-start: 4;
         grid-column-end: 38;
-        grid-row-start: 42;
+        grid-row-start: 41;
         grid-row-end: 47;
         padding: 12px;
     }
